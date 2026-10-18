@@ -181,3 +181,7 @@ h2 { font-size: var(--step-3); }
 .ref-mriezka { display: flex; flex-wrap: wrap; gap: 0.35rem 0.5rem; margin-top: 0.3rem; }
 .ref-mriezka span { padding: 0.2rem 0.65rem; border: 1px solid var(--line); border-radius: 2px; font-size: var(--step--1); background: color-mix(in srgb, var(--bg) 60%, white); }
 .referencie dd.ref { margin: 0; }
+
+/* kolo 3: lepivý nadpis, větší štítky */
+.ref-mriezka span { font-size: 1rem; padding: 0.3rem 0.8rem; }
+@media (min-width: 60rem) { .uzky-dvoj > :first-child { position: sticky; top: 2rem; align-self: start; } }
