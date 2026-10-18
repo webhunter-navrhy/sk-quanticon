@@ -108,7 +108,6 @@ h2 { font-size: var(--step-3); }
 .ako { background: var(--accent); color: var(--accent-text); }
 .ako ul { display: grid; gap: var(--space-2); }
 .ako li { font-family: var(--font-head); font-size: clamp(1.5rem, 1.1rem + 2.2vw, 3rem); line-height: 1.18; max-width: 30ch; }
-.ako li:nth-child(even) { margin-left: clamp(0rem, 8vw, 8rem); }
 .ako-podpis { margin-top: var(--space-4); font-size: var(--step--1); opacity: 0.8; }
 
 .harmonika details { border-top: 1px solid var(--line); }
@@ -157,3 +156,28 @@ h2 { font-size: var(--step-3); }
   .vrchol-nazov { font-size: 0.66rem; bottom: 0.3rem; }
   .vrchol-m { font-size: 0.7rem; bottom: 1.6rem; }
 }
+
+/* kolo 2 podle review */
+.hlavicka .wrap { min-height: 3.5rem; flex-wrap: nowrap; }
+.logo { display: inline-flex; align-items: center; min-height: 44px; white-space: nowrap; }
+.hlavicka nav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; white-space: nowrap; }
+.hlavicka nav::-webkit-scrollbar { display: none; }
+@media (max-width: 47rem) { .hlavicka { position: static; } .hlavicka .wrap { flex-direction: column; align-items: flex-start; gap: 0; padding-bottom: 0.25rem; } .hlavicka nav { max-width: 100%; } }
+[id] { scroll-margin-top: 4.5rem; }
+.portret { width: min(100%, 16.5rem); }
+@media (min-width: 60rem) { .portret { width: 100%; max-width: 21.5rem; } }
+.hero { min-height: min(80vh, 46rem); display: flex; align-items: center; }
+.hero > .wrap { width: min(100% - 2 * var(--gutter), var(--wrap)); }
+#venujem .uzky-dvoj, #venujem.sekce > .wrap { display: block; }
+#venujem h2 { margin-bottom: var(--space-4); }
+.riadky { display: grid; gap: var(--space-4); }
+@media (min-width: 52rem) { .riadky { grid-template-columns: repeat(3, 1fr); } .riadky li { border-bottom: 0; } }
+.riadky li { align-content: start; }
+.riadky .viac { margin-top: 0.4rem; }
+.ako ul { max-width: 40rem; }
+.referencie { gap: 0; }
+.referencie dd { font-family: var(--font-head); font-size: var(--step-0); line-height: 1.9; color: var(--text); }
+.referencie dd { display: block; }
+.ref-mriezka { display: flex; flex-wrap: wrap; gap: 0.35rem 0.5rem; margin-top: 0.3rem; }
+.ref-mriezka span { padding: 0.2rem 0.65rem; border: 1px solid var(--line); border-radius: 2px; font-size: var(--step--1); background: color-mix(in srgb, var(--bg) 60%, white); }
+.referencie dd.ref { margin: 0; }

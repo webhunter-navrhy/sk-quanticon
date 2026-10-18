@@ -20,7 +20,7 @@
   <div class="wrap uzky-dvoj">
     <h2>Čomu sa venujem</h2>
     <ul role="list" class="riadky">
-      {% for s in data.sluzby %}<li><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+      {% for s in data.sluzby %}<li><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p>{% if s.nazev == 'Tréningy' %}<a class="viac odkaz-sip" href="#treningy">Ponuka tréningov</a>{% endif %}</li>{% endfor %}
     </ul>
   </div>
 </section>
@@ -76,7 +76,7 @@
       <p class="uvod">Zoznam organizácií podľa oblasti, v ktorej som pre ne pracovala.</p>
     </div>
     <dl class="referencie">
-      {% for r in data.profil.referencie %}<dt>{{ r.oblast }}</dt><dd>{{ r.firmy }}</dd>{% endfor %}
+      {% for r in data.profil.referencie %}<dt>{{ r.oblast }}</dt><dd class="ref"><div class="ref-mriezka">{% for f in r.firmy.split(', ') %}<span>{{ f }}</span>{% endfor %}</div></dd>{% endfor %}
     </dl>
   </div>
 </section>

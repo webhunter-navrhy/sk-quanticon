@@ -1,0 +1,15 @@
+{
+  "znamka": 5,
+  "slabiny": [
+    "Hlavička na mobilu (390 a 360 px, buňky 1–9) je rozbitá: menu se láme do dvou řádků, „Kontakt“ padá samo na druhý řádek, název „Katarína Rothová“ je nahoře oříznutý a fixní lišta zabírá asi 115 px obrazovky. Pod 760 px dát menu do hamburgeru nebo do jednoho vodorovně posuvného řádku, výšku lišty nastavit na nejvýš 64 px, název na jeden řádek s dotykovou plochou aspoň 44 px a u kotev nastavit scroll-margin-top.",
+    "Na celé dlouhé stránce je jediná fotka, portrét v hero. Má jen 344 px a na mobilu je roztažený 2× (QA), na PC je malý a kolem něj zůstává prázdno. Z quanticon.sk nebo od klientky vzít portrét aspoň 900 px. V sekci „Hory a čomu verím“ nahradit ploché SVG trojúhelníky s výškami jejími skutečnými fotkami z hor a do „Ponuka tréningov“ nebo „Rozvoj tímov“ dát aspoň jednu reálnou fotku z tréninku či teambuildingu.",
+    "Rytmus PC: sekce Čomu sa venujem, Ponuka tréningov, Cesta/Kvalifikácia a S kým som pracovala mají všechny stejnou kostru: nadpis vlevo, šedý seznam vpravo, levý sloupec často prázdný (buňky 3 a 5). Výsledek působí jako dlouhý dokument. „Čomu sa venujem“ přestavět na 3 sloupce s krátkou větou a odkazem na tréninky. Seznamy klientů v „S kým som pracovala“ nevysázet jako odstavce oddělené čárkami, ale jako mřížku jmen ve větším písmu. V zeleném pásu s hodnotami zarovnat odsazené řádky „Ako zásadový…“ a „Ako prírodný človek“ k jedné hraně, teď to vypadá jako chyba."
+  ],
+  "silne": [
+    "Klidný světlý editorial v zelené a béžové bez AI vzorů (žádný marquee, číslování ani tmavý luxus); Literata zvládá slovenskou diakritiku bez problémů.",
+    "Obsah je reálný a konkrétní: témata tréninků podle cílových skupin, časová osa kariéry, kvalifikace a seznamy firem, se kterými pracovala.",
+    "Kontakt je jasný: CTA „Napíšte mi“ v hero a na konci stránky formulář s e-mailem a adresou."
+  ],
+  "verdikt": "Opravit. Obsah i tón jsou správně, ale rozbitá hlavička na mobilu, jediná malá roztažená fotka a monotónní textová skladba zatím na odeslání nestačí. Horskou metaforu (Cesta, vrcholy) by stálo za to provléct celým webem, ne ji nechat jen na konci.",
+  "_hash": "d9633b6f32acb7d19708e7ef7d9c030d4ac93ccb"
+}
