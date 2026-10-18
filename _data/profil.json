@@ -1,0 +1,83 @@
+{
+  "cesta": [
+    {
+      "roky": "1996 – 2000",
+      "text": "Outward Bound Slovakia – projektová manažérka a trénerka"
+    },
+    {
+      "roky": "2000 – 2006",
+      "text": "Outward Bound Slovakia – výkonná riaditeľka"
+    },
+    {
+      "roky": "2006 – 2025",
+      "text": "Quanticon s.r.o. – konateľka, výkonná riaditeľka"
+    },
+    {
+      "roky": "2006 – 2025",
+      "text": "Koučka, trénerka interpersonálnych a manažérskych zručností"
+    },
+    {
+      "roky": "1996 – 2025",
+      "text": "Trénerka teambuildingových tréningov"
+    }
+  ],
+  "kvalifikacia": [
+    "Výcviky z facilitácie, vedenia skupiny a tréning pre trénerov v rozsahu 160 hodín",
+    "Ročný kurz akreditovaný Ministerstvom školstva: Špecialista pre rozvoj ľudských zdrojov",
+    "208 hodín výcviku Transakčnej analýzy",
+    "Akreditované kurzy: Coactive koučing, Systemický koučing, Neuro Lingvistické Programovanie v koučingu, Tímový koučing TCI",
+    "Certifikácia v diagnostických nástrojoch: Lumina, DISC, Rocket model, Facet 5",
+    "Členka Slovenskej asociácie koučov"
+  ],
+  "referencie": [
+    {
+      "oblast": "Koučing",
+      "firmy": "Alfa Bio, Böllhoff, Contract Administration, DHL Freight, DHL DCC, Kovohuty Dolný Kubín, Plastic Omnium, Poštová banka, Sancho Tour, Slovak Telekom, Slovalco, Slovenské elektrárne, VÚB, 365 Bank, Hydro Extrusion Slovakia"
+    },
+    {
+      "oblast": "Tréningy manažérskych a interpersonálnych zručností",
+      "firmy": "Alfa Bio, Billa, Brose, CRH Slovensko, Daňový úrad, DHL DCC, DHL Freight, Generali poisťovňa, Slovenské elektrárne, Freudenberg, GEFCO, Ingram Micro, Martinrea, Kovohuty Dolný Kubín, Plastic Omnium, Slovenské cukrovary, Poštová banka, Secop, Semikron, Slovalco, Slovenská sporiteľňa, Slovak Telekom, Tesco Stores, Vacuumschmelze, VÚB, Witzenmann Slovakia, Hydro Extrusion Slovakia, Essity Slovakia, Nemak Slovakia a ďalší"
+    },
+    {
+      "oblast": "Facilitované workshopy a tímový koučing",
+      "firmy": "Alfa Bio, Baker Tilly, Heineken, LANXESS Central Eastern Europe, Plastic Omnium, Regada, Slovak Telekom, Slovalco, Tatra Leasing, VÚB, Witzenmann Slovakia"
+    },
+    {
+      "oblast": "Teambuilding",
+      "firmy": "Accenture, Allianz – Slovenská poisťovňa, Boehringer Ingelheim, Coca-Cola Beverages, DELL, DHL Express, Doka, ECCO, Glaxo Smith Kline, Heineken Slovakia, Hilti, Holcim, Pepsi Cola ČR, Pivovar Šariš, Ringier Slovakia, Slovak Telekom, Slovenské elektrárne, Union poisťovňa, World Bank a ďalší"
+    },
+    {
+      "oblast": "Výber zamestnancov",
+      "firmy": "Alfa Bio, Kovohuty Dolný Kubín, Saneca Pharma"
+    }
+  ],
+  "vrcholy": [
+    {
+      "nazev": "Mont Blanc",
+      "m": 4810
+    },
+    {
+      "nazev": "Gokyo Peak",
+      "m": 5357
+    },
+    {
+      "nazev": "Stok Kangri",
+      "m": 6153
+    },
+    {
+      "nazev": "Mera Peak",
+      "m": 6476
+    }
+  ],
+  "verim": [
+    "Sami sme zodpovední za to, ako vyzerá náš život a naše vzťahy.",
+    "Energia investovaná sa vráti.",
+    "Malé kroky a vytrvalosť vedú k veľkým zmenám."
+  ],
+  "ako": [
+    "Ako profesionál s dlhoročnými skúsenosťami",
+    "Ako zásadový a hodnotový človek",
+    "Ako človek, ktorý sľúbi len to, čo vie dodať",
+    "Ako prírodný človek"
+  ]
+}

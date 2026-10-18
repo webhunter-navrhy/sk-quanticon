@@ -1,0 +1,116 @@
+{% extends "_base.html" %}
+{% set titulek = 'Katarína Rothová – koučka a trénerka, Bratislava' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-mriezka">
+    <div class="hero-text">
+      <p class="stitok">Koučka a trénerka</p>
+      <h1>Katarína Rothová</h1>
+      <p class="hero-veta">Pomáham ľuďom a tímom podávať lepší výkon a byť pri tom spokojnejší. Koučing, tréningy manažérskych a interpersonálnych zručností a rozvoj tímov.</p>
+      <p class="hero-akcia"><a class="tlacitko" href="#kontakt">Napíšte mi</a><a class="odkaz-sip" href="#treningy">Pozrieť ponuku tréningov</a></p>
+    </div>
+    <figure class="portret">
+      {{ img('katarina.jpg', 'Katarína Rothová, koučka a trénerka', sizes='(min-width: 60rem) 24rem, 80vw') }}
+    </figure>
+  </div>
+</section>
+
+<section class="sekce" id="venujem">
+  <div class="wrap uzky-dvoj">
+    <h2>Čomu sa venujem</h2>
+    <ul role="list" class="riadky">
+      {% for s in data.sluzby %}<li><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="sekce ako">
+  <div class="wrap">
+    <h2 class="sr-only">Ako pracujem</h2>
+    <ul role="list">
+      {% for r in data.profil.ako %}<li>{{ r }}</li>{% endfor %}
+    </ul>
+    <p class="ako-podpis">Viac o mojej ceste a o tom, čomu verím, nájdete nižšie.</p>
+  </div>
+</section>
+
+<section class="sekce" id="treningy">
+  <div class="wrap uzky-dvoj">
+    <div>
+      <h2>Ponuka tréningov</h2>
+      <p class="uvod">Témy podľa toho, pre koho je tréning určený. Rozsah a obsah sa dá upraviť podľa tímu.</p>
+    </div>
+    <div class="harmonika">
+      {% for t in data.treningy %}
+      <details{% if loop.first %} open{% endif %}>
+        <summary>{{ t.nazev }}</summary>
+        <ul>{% for b in t.body %}<li>{{ b }}</li>{% endfor %}</ul>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sekce cesta" id="cesta">
+  <div class="wrap uzky-dvoj">
+    <div>
+      <h2>Cesta</h2>
+      <ol role="list" class="casova-os">
+        {% for c in data.profil.cesta %}<li><span class="roky">{{ c.roky }}</span><span>{{ c.text }}</span></li>{% endfor %}
+      </ol>
+    </div>
+    <div>
+      <h3 class="podnadpis">Kvalifikácia</h3>
+      <ul class="odrazky">
+        {% for k in data.profil.kvalifikacia %}<li>{{ k }}</li>{% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sekce" id="referencie">
+  <div class="wrap uzky-dvoj">
+    <div>
+      <h2>S kým som pracovala</h2>
+      <p class="uvod">Zoznam organizácií podľa oblasti, v ktorej som pre ne pracovala.</p>
+    </div>
+    <dl class="referencie">
+      {% for r in data.profil.referencie %}<dt>{{ r.oblast }}</dt><dd>{{ r.firmy }}</dd>{% endfor %}
+    </dl>
+  </div>
+</section>
+
+<section class="sekce hory">
+  <div class="wrap">
+    <h2>Hory a čomu verím</h2>
+    <div class="hory-mriezka">
+      <div class="profil" role="img" aria-label="Výškový profil vrcholov: {% for v in data.profil.vrcholy %}{{ v.nazev }} {{ v.m }} metrov nad morom{{ ', ' if not loop.last }}{% endfor %}">
+        {% for v in data.profil.vrcholy %}
+        <div class="vrchol" style="--v: {{ (v.m / 6476 * 100)|round(1) }}">
+          <span class="vrchol-m">{{ v.m }} m n. m.</span>
+          <span class="vrchol-nazov">{{ v.nazev }}</span>
+        </div>
+        {% endfor %}
+      </div>
+      <div>
+        <p class="uvod">Horolezectvu sa venujem od roku 1987, bola som členkou československého horolezeckého výberového tímu a dodnes na hory chodím s nadšením.</p>
+        <ul role="list" class="verim">
+          {% for v in data.profil.verim %}<li>{{ v }}</li>{% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sekce kontakt" id="kontakt">
+  <div class="wrap uzky-dvoj">
+    <div>
+      <h2>Napíšte mi</h2>
+      <p class="uvod">Stačí pár viet o tom, čo riešite. Ozvem sa Vám e-mailom.</p>
+      <p class="kontakt-udaje"><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a><br>Rajecká 10, 821 07 Bratislava</p>
+    </div>
+    {% include "_formular.html" %}
+  </div>
+</section>
+{% endblock %}

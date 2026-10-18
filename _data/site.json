@@ -1,0 +1,51 @@
+{
+  "slug": "sk-quanticon",
+  "nazev": "Katarína Rothová",
+  "url": "https://webhunter-navrhy.github.io/sk-quanticon/",
+  "base": "/sk-quanticon/",
+  "lang": "sk",
+  "popis": "Katarína Rothová – koučka a trénerka manažérskych a interpersonálnych zručností, rozvoj tímov a teambuilding. Bratislava.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "katarina.jpg",
+  "logo": "",
+  "theme_color": "#f4efe4",
+  "typ": "ProfessionalService",
+  "ico": "",
+  "kontakt": {
+    "email": "katarina.rothova@quanticon.sk",
+    "telefon": "",
+    "adresa": {
+      "ulice": "Rajecká 10",
+      "psc": "821 07",
+      "mesto": "Bratislava",
+      "zeme": "SK"
+    }
+  },
+  "oteviraci_doba": [],
+  "sameas": [],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Správa z webu – Katarína Rothová"
+  },
+  "nav": [
+    {
+      "text": "Čomu sa venujem",
+      "href": "#venujem"
+    },
+    {
+      "text": "Ponuka tréningov",
+      "href": "#treningy"
+    },
+    {
+      "text": "Cesta",
+      "href": "#cesta"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
+  ]
+}
